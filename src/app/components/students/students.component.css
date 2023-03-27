@@ -1,0 +1,42 @@
+main {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    height: cal(100% - var(--toolbar-height));
+    margin: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+.mat-mdc-form-field {
+    width: 30%;
+}
+
+.approved {
+    background: rgb(192, 242, 192);
+    cursor: pointer;
+}
+
+.not-approved {
+    background: rgb(236, 168, 168);
+    cursor: pointer;
+}
+
+.empty-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,5 @@
+<div class="grid-container" [ngClass]="{'expand-toolbar':!hide}">
+     <app-sidebar (hideNavbar)="onHideNavbar($event)"></app-sidebar>
+     <app-toolbar></app-toolbar>
+     <app-students></app-students>
+</div>
